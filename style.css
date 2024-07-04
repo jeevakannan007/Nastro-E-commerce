@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.navbar-links{
+    display: flex;
+    column-gap: 20px;
+
+}
+.navbar-links a{
+    text-decoration: none;
+    color: #1d232c;
+}
+.navbar-links a:hover{
+    text-decoration: underline;
+    color: #1d232c;
+}
+.navbar-menu-toggle{
+    display: none;
+}
+.side-navbar{
+    background-color: #1d232c;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -70%;
+    padding: 20px;
+    color: white;
+    transition: 1s;
+    
+}
+.side-navbar-link{
+    margin-bottom: 30px;
+}
+.side-navbar-links a{
+    text-decoration: none;
+    color: white;
+}
+.side-navbar-links a:hover{
+    text-decoration: underline;
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+.header-button{
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    background-color: #1d232c;
+    color: white;
+
+}
+.service{
+    padding: 20px;
+    
+}
+.service-container1{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.service-container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.service-container2 div{
+    padding: 10px;
+    background-color: #F2F4F7;
+    border-radius: 5px;
+    border: solid;
+    border-color: slategray;
+
+}
+.new-arrival{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.new-arrival-container{
+    position: relative;
+    flex-basis: 20%;
+}
+.new-arrival button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin-top: 10px;
+    color: #1d232c;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    border: none;
+
+}
+.lowersection input{
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    border: solid black 3px;
+
+}
+.lowersection button{
+    background-color: #1d232c;
+    padding: 10px;
+    margin-top: 5px;
+    color: white;
+    border-radius: 10px;
+
+}
+.footer{
+    margin-top: 10px;
+    padding: 40px;
+    background-color: #1d232c;
+    color: #ffff;
+}
+
+#n{
+    height: 200px;
+    width: 200px;
+}
+/*productsection*/
+.product-section{
+    margin: 20px;
+}
+.product-search{
+    width: 80%;
+    border-radius: 20px;
+    border: solid black 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+
+}
+.product-search input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+.product-search input:focus{
+    outline: none;
+}
+.products{
+    padding: 20px;
+    display: flex;
+    gap:20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.product-box{
+    text-align: center;
+    flex-basis: 10%;
+}
+.product-box img{
+    border-radius: 20px;
+}
+.contact-page{
+    background-color: #1d232c;
+    color: #F2F4F7;
+    width: 40%;
+    height: 50%;
+    padding: 20px;
+    margin: 100px;
+    
+}
+.contactform input{
+    width: 90%;
+    height:40px;
+
+    
+}
+.contactform textarea{
+    width: 90%;
+    height:100px;
+
+    
+}
+.submitbtn{
+    color: black;
+    cursor: pointer;
+    pad: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+}
+.submitbtn:hover{
+    color: cadetblue;
+}
+
+
+
+
+
+
+/*media query*/
+@media screen and (max-width:700px) {
+    .navbar-menu-toggle{
+        display: block;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .header-image{
+        display: none;
+    }
+    .service-container1{
+        display: none;
+    }
+    .service-container2{
+        flex-direction: column;
+    }
+ 
+    
+}

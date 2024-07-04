@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<!---fontawesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Nastro</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contacts</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="show()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        
+    </nav>
+    <!--sidenavbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closebar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+    
+    <div class="side-navbar-links">
+        <p class="side-navbar-link"><a href="index.html">Home</a></p>
+        <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+        <p class="side-navbar-link"><a href="contact.html">Contacts</a></p>
+    </div>
+</div>
+
+<!--product-page-->
+<div class="product-section">
+    <form class="product-search">
+        <input type="text" id="search" placeholder="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </form>
+    <div class="products" id="products">
+        <div class="product-box">
+            <img id="n"src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            <p>Metal watch</p>
+        </div>
+        <div class="product-box">
+            <img id="n"src="https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            <p>Metal watch</p>
+        </div>
+        <div class="product-box">
+            <img id="n"src="https://images.pexels.com/photos/47856/rolex-wrist-watch-clock-gmt-47856.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            <p>Metal watch</p>
+        </div>
+        <div class="product-box">
+            <img id="n"src="https://thefoomer.in/cdn/shop/files/jpeg-optimizer_12.jpg?v=1698236484&width=3672" alt="">
+            <p>Blackshirts</p>
+        </div>
+        <div class="product-box">
+            <img id="n"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWIgf_msf1v9vJ2pkg5pJ29J8k1yqLfxopcg&s" alt="">
+            <p>Blackshirts</p>
+        </div>
+       
+       
+        <div class="product-box">
+            <img id="n"src="https://images.pexels.com/photos/9764746/pexels-photo-9764746.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            <p>Black-shirts</p>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+<!--footer-->
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box1">
+            <h2>Nastro</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim molestiae dolor tenetur, pariatur fugit voluptatibus? Magnam blanditiis facere dignissimos iure, atque, sed, ullam id ea doloribus modi reprehenderit lib</p>
+            <div class="footericon">
+                <i class="fa-brands fa-instagram" style="color: #ffff;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ffff;"></i>
+                <i class="fa-brands fa-facebook" style="color: #ffff;"></i>
+
+            </div>
+        </div>
+    </div>
+    <p>@2024nastrofashion.com</p>
+</div>
+
+
+
+
+<script src="script.js"></script>
+    
+<script src="collection.js"></script>
+</body>
+</html>
